@@ -17,6 +17,7 @@ makes it easy to update the shared code.}
   spec.files         = `git ls-files`.split($/)
   spec.require_paths = ["lib"]
 
+  spec.add_runtime_dependency "parallel_tests", "~>0.16", ">= 0.16.10"
   spec.add_runtime_dependency "cucumber", "~> 1.3", ">= 1.3.10"
   spec.add_runtime_dependency "headless", "~> 1.0", ">= 1.0.1"
   spec.add_runtime_dependency "json", "~> 1.8", ">= 1.8.1"
